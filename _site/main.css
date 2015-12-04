@@ -20,9 +20,9 @@ a {
   text-decoration: inherit;
   transition: color 0.2s ease-out; }
   a:hover {
-    color: gray; }
+    color: #ff9bcd; }
   a#selected {
-    color: #46e; }
+    color: #9a195a; }
 
 strong, b, th {
   font-weight: 400; }
@@ -49,7 +49,8 @@ blockquote {
   padding-left: 1.5em; }
 
 nav ul {
-  padding-left: 0; }
+  padding-left: 0;
+  color: #fb2992; }
 nav li {
   display: inline-block;
   margin-right: 10%; }
@@ -91,7 +92,8 @@ body {
     color: black; }
 
 body > header h1 {
-  font-weight: bold; }
+  font-weight: bold;
+  color: #fb2992; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gentium Basic", serif;
@@ -100,28 +102,32 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase; }
 
 article:nth-of-type(even) {
-  background: #222222;
-  color: white;
-  border-top-color: #414141; }
+  background: #ffffff;
+  color: black;
+  border-top-color: #e0e0e0; }
   article:nth-of-type(even) tr:hover {
-    background-color: #343434; }
+    background-color: #ededed; }
   article:nth-of-type(even) th {
     border-bottom-width: 2px; }
   article:nth-of-type(even) th, article:nth-of-type(even) td {
-    border-color: #464646; }
+    border-color: #dbdbdb; }
   article:nth-of-type(even) header p {
-    color: #bbbbbb; }
+    color: #fb2992; }
+  article:nth-of-type(even) div em {
+    color: #ff9bcd; }
+  article:nth-of-type(even) div b {
+    color: #ff9bcd; }
   article:nth-of-type(even) div a {
     font-weight: inherit;
-    color: #2b51ff; }
+    color: #fb2992; }
     article:nth-of-type(even) div a:hover {
-      color: gray; }
+      color: #ff9bcd; }
   article:nth-of-type(even) footer a {
-    border-color: white;
+    border-color: black;
     border-width: 2px; }
     article:nth-of-type(even) footer a:hover {
-      background-color: white;
-      color: #222222; }
+      background-color: black;
+      color: #ffffff; }
 
 article:nth-of-type(odd) {
   background: #ffffff;
@@ -134,12 +140,16 @@ article:nth-of-type(odd) {
   article:nth-of-type(odd) th, article:nth-of-type(odd) td {
     border-color: #dbdbdb; }
   article:nth-of-type(odd) header p {
-    color: #666666; }
+    color: #fb2992; }
+  article:nth-of-type(odd) div em {
+    color: #ff9bcd; }
+  article:nth-of-type(odd) div b {
+    color: #ff9bcd; }
   article:nth-of-type(odd) div a {
     font-weight: inherit;
-    color: #2b51ff; }
+    color: #fb2992; }
     article:nth-of-type(odd) div a:hover {
-      color: gray; }
+      color: #ff9bcd; }
   article:nth-of-type(odd) footer a {
     border-color: black;
     border-width: 2px; }

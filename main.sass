@@ -26,6 +26,7 @@ body
 
 body > header h1
     font-weight: bold
+    color: #fb2992
 
 h1, h2, h3, h4, h5, h6 
     font-family: "Gentium Basic", serif
@@ -50,7 +51,7 @@ nav ul
 {% endif %}
 
 article:nth-of-type(even)
-    +article_background($even, $anchor)
+    +article_background($odd, $anchor)
 
 article:nth-of-type(odd)
     +article_background($odd, $anchor)

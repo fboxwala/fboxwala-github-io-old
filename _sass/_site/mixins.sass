@@ -26,16 +26,12 @@
     th, td
         border-color: reduce($background, 14%)
     header p
-        color: #fb2992
-    div em
-        color: #ff9bcd
-    div b
-        color: #ff9bcd
+        color: reduce($background, 60%)
     div a
         font-weight: if($anchor, inherit, 400)
-        color: #fb2992
+        color: if($anchor, reduce($anchor, 5%), inherit)
         &:hover
-            color: #ff9bcd
+            color: gray
     footer a
         border-color: reduce($background, 100%)
         border-width: 2px
