@@ -1,6 +1,6 @@
 title: "Fatema Boxwala"
 author: "Fatema Boxwala"
-description: "Really cool blog about ... something"
+description: "This site is powered by Jekyll and hosted on GitHub Pages, using the theme Contrast"
 #subheading: "Really cool blog about ... something"
 more: "read more"
 url: "http://fboxwala.github.io"
@@ -23,12 +23,6 @@ style:
         even: "#222222"
 
 links:
-  - github: "https://github.com/me/"
-  - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
 
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
