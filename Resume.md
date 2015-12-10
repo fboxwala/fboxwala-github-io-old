@@ -2,7 +2,7 @@
 title: Resume
 permalink: /resume/
 ---
-<center>**Education**</center>
+<center>Education</center>
 ====
 _Candidate for Bachelor of Computer Science, University of Waterloo_
 
@@ -17,17 +17,17 @@ my four terms at Waterloo, I have learned many important concepts including:
 This term, I am enrolled in three more CS courses, including "Foundations of
 Sequential Programs", in which we get to write compilers. I am very excited.
 
-<center>**Technical Skills**</center>
+<center>Technical Skills</center>
 ====
 
-## Languages:
+### Languages:
 
 I am proficient in the following languages:
 
 `C++, ` `C, ` `Java, ` `Racket, ` `Bash, ` `Python, ` `HTML5/CSS3, ` `Visual
 Basic`.
 
-## Programs and Utilities:
+### Programs and Utilities:
 
 I am competent in the use of the following programs and utilities:
 
@@ -43,7 +43,7 @@ I am competent in the use of the following programs and utilities:
     with Fedora, and Debian-based distros.
 - **Windows**
 
-## Miscellaneous
+### Miscellaneous
 
 Other things I can do include:
 
