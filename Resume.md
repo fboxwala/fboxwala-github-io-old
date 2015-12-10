@@ -2,7 +2,7 @@
 title: Resume
 permalink: /resume/
 ---
-Education
+<center>**Education**</center>
 ====
 _Candidate for Bachelor of Computer Science, University of Waterloo_
 
@@ -17,7 +17,7 @@ my four terms at Waterloo, I have learned many important concepts including:
 This term, I am enrolled in three more CS courses, including "Foundations of
 Sequential Programs", in which we get to write compilers. I am very excited.
 
-Technical Skills
+<center>**Technical Skills**</center>
 ====
 
 ## Languages:
