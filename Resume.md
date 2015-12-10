@@ -24,7 +24,8 @@ Technical Skills
 
 I am proficient in the following languages:
 
-`C++`, `C`, `Java`, `Racket`, `Bash`, `Python`, `HTML5/CSS3`, `Visual Basic`.
+`C++ `, `C `, `Java `, `Racket `, `Bash `, `Python `, `HTML5/CSS3 `, `Visual
+Basic`.
 
 ### Programs and Utilities:
 
