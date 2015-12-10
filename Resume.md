@@ -20,13 +20,13 @@ Sequential Programs", in which we get to write compilers. I am very excited.
 Technical Skills
 ====
 
-#### Languages:
+### Languages:
 
 I am proficient in the following languages:
 
 `C++`, `C`, `Java`, `Racket`, `Bash`, `Python`, `HTML5/CSS3`, `Visual Basic`.
 
-#### Programs and Utilities:
+### Programs and Utilities:
 
 I am competent in the use of the following programs and utilities:
 
@@ -42,7 +42,7 @@ I am competent in the use of the following programs and utilities:
     with Fedora, and Debian-based distros.
 - **Windows**
 
-#### Miscellaneous
+### Miscellaneous
 
 Other things I can do include:
 
