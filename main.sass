@@ -5,7 +5,7 @@
 @import mixins
 
 $body: {% if site.style.body %}{{ site.style.body }}{% else %}white{% endif %}
-$padding: {% if site.style.padding %}{{ site.style.padding }}{% else %}33%{% endif %}
+$padding: {% if site.style.padding %}{{ site.style.padding }}{% else %}10%{% endif %}
 $anchor: {% if site.style.anchor %}{{ site.style.anchor }}{% else %}false{% endif %}
 $nav: {% if site.style.nav %}{{ site.style.nav }}{% else %}#181818{% endif %}
 $headline: {% if site.style.headline %}{{ site.style.headline }}{% else %}#06f{% endif %}
@@ -21,6 +21,8 @@ body
     > div
         background: $description
         color: reduce($description, 100%)
+#homep
+  padding: 1em calc(33% - 6.6em)
 
 {% if site.style.serif-heading %}
 
