@@ -24,18 +24,21 @@ body
 #homep
     padding: 1em calc(33% - 6.6em)
 #pagewrap
-    width: 100px
-    margin: 0px
-    height: 600px
+    height: 100%
     float: left
     position: relative
+    overflow: hidden
 #sidebar
     width: 200px
     height: 350px
     background-color: #fb2992
     border-radius: 15px
+    left: 5%
     position: fixed
-
+#res
+    float: right
+    margin-right: 0px
+    width: calc(95% - 200px)
 {% if site.style.serif-heading %}
 
 body > header h1

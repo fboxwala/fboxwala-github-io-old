@@ -11,9 +11,75 @@ status: hidden
             var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
             $("#sidebar").css({ bottom: footheight});
             });
+    
+    window.onresize = fixside;
+    
+    function fixside() {
+        var headheight = document.getElementsByTagName('HEADER')[0].offsetHeight;
+            $("#sidebar").css({ top: headheight});
+            var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
+            $("#sidebar").css({ bottom: footheight});
+        
+    }
 </script>
 
 <div id="pagewrap">
     <div id="sidebar">
     </div>
+    <div id="res">
+<center><h1>Education</h1></center>
+
+<em>Candidate for Bachelor of Computer Science, University of Waterloo</em>
+
+I am pursuing a co-op degree in CS, and on track to graduate in June, 2019. In
+my four terms at Waterloo, I have learned many important concepts including:
+
+<ul><li>Basic algorithms</li>
+    <li>Stacks, queues, BSTs, and other common data structures</li>
+    <li>Fundamentals of object-oriented software development</li>
+    <li>Logical analysis of programs</li>
+    </ul>
+This term, I am enrolled in three more CS courses, including "Foundations of
+Sequential Programs", in which we get to write compilers. I am very excited.
+
+<center><h1>Technical Skills</h1></center>
+
+<h3>Languages:</h3>
+
+I am proficient in the following languages:
+
+<code>C++, C, Java, Racket, Bash, Python, HTML5/CSS3, Visual Basic</code>
+
+<h3>Programs and Utilities:</h3>
+
+I am competent in the use of the following programs and utilities:
+
+<ul><li><b>Git</b> 
+    you can see my contributions to various public repositories on my
+    [Github profile](http://github.com/fboxwala)</li>
+    <li>
+    Static website generators, including <b>Pelican</b> and <b>Jekyll</b> 
+    (this site is proudly powered by Jekyll!)
+    </li>
+    <li><b>Photoshop</b> and <b>GIMP</b></li>
+    <li>Wordpress</li>
+    <li><b>Android Studio</b> - I made a 
+    <a href="http://fboxwala.github.io/canipass">tiny app</a>
+    that calculates marks</li>
+    <li><b>Linux</b> - I run Linux Mint on my personal computer, and have some experience
+    with Fedora, and Debian-based distros.</li>
+    <li><b>Windows</b></li>
+    </ul>
+
+<h3> Miscellaneous</h3>
+
+Other things I can do include:
+
+<ul><li>Black/white box testing</li>
+<li> Analyze and debug programs</li>
+<li>Troubleshoot technical problems</li>
+<li>Design UI's</li>
+<li>Use Markdown and Sass</li>
+</ul>
+</div>
 </div>
