@@ -1,0 +1,19 @@
+---
+title: resume
+layout: blank
+status: hidden
+---
+
+<script>
+    $( document ).ready(function() {
+            var headheight = document.getElementsByTagName('HEADER')[0].offsetHeight;
+            $("#sidebar").css({ top: headheight});
+            var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
+            $("#sidebar").css({ bottom: footheight});
+            });
+</script>
+
+<div id="pagewrap">
+    <div id="sidebar">
+    </div>
+</div>
