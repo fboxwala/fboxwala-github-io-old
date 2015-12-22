@@ -9,8 +9,9 @@ layout: blank
             $("#sidebar").css({ top: headheight});
             var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
             $("#sidebar").css({ bottom: footheight});
-            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/2;
-            $('#techskill').css({ marginTop: side});
+            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/6;
+            $('.head4').css({ marginTop: side});
+            $('.head4').css({ marginBottom: side});
             });
 
     window.onresize = fixside;
@@ -20,8 +21,9 @@ layout: blank
             $("#sidebar").css({ top: headheight});
             var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
             $("#sidebar").css({ bottom: footheight});
-            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/2;
-            $('#techskill').css({ marginTop: side});
+            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/6;
+            $('.head4').css({ marginTop: side});
+            $('.head4').css({ marginBottom: side});
 
         
     }
@@ -33,13 +35,13 @@ layout: blank
             <center><h3>Technical Skills</h3><center>  
             </div>
         <center id="techskill">
-        <h4>Languages:</h4>
+        <h4 class="head4">Languages:</h4>
         <code>C++</code>, <code>C</code>, <code>Java</code>, <code>Racket</code>, 
         <code>Bash</code>, <code>Python</code>, <code>HTML5/CSS3</code>, <code>Visual Basic</code>
-        <h4>Programs and Utilities</h4>
+        <h4 class="head4">Programs and Utilities</h4>
         <code>Git</code>, <code>Jekyll</code>, <code>Pelican</code>, <code>Photoshop</code>, 
         <code>GIMP</code>, <code>Android Studio</code>, <code>Linux</code>, <code>Windows</code>
-        <h4>Miscellaneous</h4>
+        <h4 class="head4">Miscellaneous</h4>
         <code>Testing</code>, <code>Debugging</code>, <code>UI design</code>, <code>LaTeX</code>, 
         <code>Markdown/Sass</code>, <code>Troubleshooting</code>, <code>Root-cause analysis</code>
         </center>
