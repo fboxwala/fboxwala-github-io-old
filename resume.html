@@ -9,8 +9,10 @@ layout: blank
             $("#sidebar").css({ top: headheight});
             var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
             $("#sidebar").css({ bottom: footheight});
+            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/2;
+            $('#techskill').css({ marginTop: side});
             });
-    
+
     window.onresize = fixside;
     
     function fixside() {
@@ -25,10 +27,9 @@ layout: blank
 <div id="pagewrap">
     <div id="sidebar">
         <div id="sidetitle">
-            <center><h3>Technical Skills</h3>
-                </center>
+            <center><h3>Technical Skills</h3><center>  
             </div>
-        <center>
+        <center id="techskill">
         <h4>Languages:</h4>
         <code>C++</code>, <code>C</code>, <code>Java</code>, <code>Racket</code>, 
         <code>Bash</code>, <code>Python</code>, <code>HTML5/CSS3</code>, <code>Visual Basic</code>
