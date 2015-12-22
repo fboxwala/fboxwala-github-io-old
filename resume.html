@@ -20,6 +20,9 @@ layout: blank
             $("#sidebar").css({ top: headheight});
             var footheight = document.getElementsByTagName('FOOTER')[0].offsetHeight;
             $("#sidebar").css({ bottom: footheight});
+            var side = (($('#sidebar').height() - 50) - $('#techskill').height())/2;
+            $('#techskill').css({ marginTop: side});
+
         
     }
 </script>
